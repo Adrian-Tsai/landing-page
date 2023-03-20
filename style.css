@@ -44,6 +44,7 @@ body {
 .hero-text h3 {
     color:#F9FAF8;
     font-size: 4.8em;
+    font-weight: 800;
 }
 .hero-text p {
     color:#F9FAF8;
@@ -65,4 +66,96 @@ body {
     height:26em;
     width:40em;
     margin-right: 14em;
+}
+.info h2 {
+    width:15em;
+    margin: 0 auto;
+    font-size: 3.6em;
+    font-weight:800;
+    padding-top: 1.5em;
+}
+.info .card {
+    width:18em;
+}
+.info .cards-list {
+    display: flex;
+    justify-content: center;
+    gap:5em;
+    text-align: center;
+    margin-top: 5em;
+    padding-bottom:13em;
+}
+.info .card .img-card {
+    width: 18em;
+    height:18em;
+    overflow: hidden;
+    border-radius: 10px;
+    border: 0.5em solid #3882F6;
+}
+.info .card .img-subtitle {
+    font-size: 1.8em;
+}
+.quote {
+    background-color: #E5E7EB; 
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    height:500px;
+}
+.quote .quotation {
+    width:60%;
+}
+.quote .quotation p {
+    font-size: 3.6em;
+    font-style:italic;
+    font-weight: lighter;
+}
+.quote .quotation h5 {
+    font-size: 2em;
+    display: flex;
+    align-self: flex-end;
+    padding-left:50%;
+}
+.action {
+    display:flex;
+    justify-content: center;
+}
+.action .signup {
+    background-color: #3882F6;
+    width:70%;
+    display:flex;
+    justify-content: space-around;
+    padding:5em 0;
+    margin:10em 0;
+    border-radius: 10px;
+}
+.action .signup button {
+    background-color: transparent;
+    color:white;
+    height:30px;
+    border-radius: 5px;
+    font-size: 13px;
+    border-color:white;
+    border-style:solid;
+    width: 130px;
+    margin-top:10px;
+}
+.action .signup .action-text h4 {
+    font-size: 20px;
+    color:white;
+    font-weight: bolder;
+}
+.action .signup .action-text p {
+    font-size: 13px;
+    color:white;
+}
+.footer {
+    background-color: #1F2937;
+    color:#F9FAF8;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.3em;
+    padding:2em 0;
 }
